@@ -1682,3 +1682,8 @@ iframe {
 .user-info small {
   color: #545d7a;
 }
+
+
+.owl-carousel .owl-item li{
+  margin: 1rem;
+}
