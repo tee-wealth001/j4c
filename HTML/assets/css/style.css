@@ -1743,7 +1743,7 @@ iframe {
   background-color: #fefefe;
   background-image: linear-gradient(to right, rgb(0 0 0 / .15), transparent);
   transform-style: preserve-3d;
-  color: #000;
+  color: #af0009;
 
   display: grid;
   grid-template: 'icon' 'title' 'content';
