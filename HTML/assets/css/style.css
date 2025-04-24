@@ -218,7 +218,7 @@ a:active {
 }
 
 .about-us-col .col-details {
-  text-align: justify;
+  text-align: center;
   margin-bottom: 25px;
   min-height: 80px;
 }
@@ -1553,7 +1553,7 @@ a:hover {
 }
 
 .grey_bg {
-  background: #f4f4f4;
+  background-color: #f4f4f4 !important;
   padding: 0.8rem;
 }
 
@@ -1909,4 +1909,46 @@ p {
 
 .episode{
   margin-bottom: 5rem
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.box {
+  /* background-color: #ffffff; */
+  border-radius: 0.5rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  margin: 1rem 0rem;
+}
+
+.box:hover {
+  /* transform: translateY(-4px); */
+}
+
+.centered-box {
+  /* Centering the box within its parent container */
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  text-align: center;       /* ensures multiline text is centered */
+  height: 100%;            /* optional: gives the box a fixed height */
+  /* padding: 1.5rem; */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); */
+  /* transition: transform 0.2s ease; */
+}
+
+.padded-align-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.large-section{
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
