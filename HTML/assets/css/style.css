@@ -1707,7 +1707,8 @@ iframe {
   /* min-height: 55rem; */
 }
 
-.card-texture li, .content {
+.card-texture li,
+.content {
   /* text-align: justify; */
 }
 
@@ -1826,7 +1827,9 @@ p {
 }
 
 
-.center { text-align: center; }
+.center {
+  text-align: center;
+}
 
 .container {
   width: 95%;
@@ -1908,7 +1911,7 @@ p {
   background-color: #ffffff;
 }
 
-.episode{
+.episode {
   margin-bottom: 5rem
 }
 
@@ -1927,34 +1930,45 @@ p {
   margin: 1rem 0rem;
 }
 
-.grey_bg .box{
+.grey_bg .box {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   background-color: #ffffff;
-}
-
-.box:hover {
-  /* transform: translateY(-4px); */
 }
 
 .centered-box {
   /* Centering the box within its parent container */
   display: flex;
-  justify-content: center;  /* centers horizontally */
-  align-items: center;      /* centers vertically */
-  text-align: center;       /* ensures multiline text is centered */
-  height: 100%;            /* optional: gives the box a fixed height */
+  justify-content: center;
+  /* centers horizontally */
+  align-items: center;
+  /* centers vertically */
+  text-align: center;
+  /* ensures multiline text is centered */
+  height: 100%;
+  /* optional: gives the box a fixed height */
   /* padding: 1.5rem; */
   /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); */
   /* transition: transform 0.2s ease; */
 }
 
-.padded-align-box{
+.padded-align-box {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.large-section{
+.large-section {
   padding-top: 5rem;
   padding-bottom: 10rem;
+}
+
+.centered-element {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  height: 22rem;
+}
+
+.centered-element .col-icon-wrapper {
+  min-height: auto !important;
+  height: auto !important;
 }
