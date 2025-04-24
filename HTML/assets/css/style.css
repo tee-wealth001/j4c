@@ -483,12 +483,13 @@ a:active {
 /* Pages 
 ================================= */
 .page-heading {
-  background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
+  /* background: url('../images/heading-bg.jpg?1428795369') no-repeat center; */
   background-size: cover;
   min-height: 190px;
   color: #fff;
   padding: 25px 15px;
   margin-bottom: 50px;
+  background-color: #000;
 }
 
 .page-heading .title-under {
@@ -1924,6 +1925,11 @@ p {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease;
   margin: 1rem 0rem;
+}
+
+.grey_bg .box{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
 }
 
 .box:hover {
