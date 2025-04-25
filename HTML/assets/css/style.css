@@ -2012,3 +2012,9 @@ p {
 .our-services .box{
   border: 1px solid;
 }
+
+
+.our-founder li::marker {
+  content: ">> ";
+  font-size: 1.2rem;
+}
