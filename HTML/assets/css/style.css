@@ -117,7 +117,7 @@ a:active {
 
 .navbar-main li a {
   font-family: "Dosis", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   padding: 20px 15px;
   border-bottom: 2px solid transparent;
 }
@@ -2026,5 +2026,9 @@ p {
 @media only screen and (max-width: 767px) {
   .gallery img {
     height: 100%;
+  }
+
+  .navbar-brand img{
+    height: 50px !important;
   }
 }
